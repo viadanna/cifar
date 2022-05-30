@@ -3,12 +3,7 @@
 """
 from __future__ import print_function
 import os
-try:
-    # python2.7
-    import cPickle as pickle
-except ImportError:
-    # python3.5
-    import pickle
+import pickle
 
 from keras.datasets import cifar10
 from keras.preprocessing.image import ImageDataGenerator
